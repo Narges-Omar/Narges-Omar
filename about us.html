@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Knowledge Junction</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Knowledge Junction</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="ND.png"><img src="images/ND.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="HOME.html">Home</a></li>
+                    <li><a href="about%20us.html">About</a></li>
+                    <li><a href="COURSES.html">Courses</a></li>
+                    <li><a href="contact.html">Contacts</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1><b>About Us</b></h1>
+    </section>
+    
+    <!--------About Us-------->
+    <section class="about">
+        <div class="about">
+            <h3><b>About Us</b></h3>
+            <p>By embracing the journey of lifelong learning, individuals unlock their full potential, embrace new opportunities, and contribute meaningfully to the advancement of society as a whole.</p>
+        </div>
+        <div class="me">
+            <div class="about-col">
+            <h3><b>Mission</b></h3>
+            <p>Our mission is to provide exceptional educational tutoring services that empower students to excel academically. Through personalized and engaging tutoring sessions, we foster a love for learning, critical thinking, and problem-solving skills. We create a supportive and inclusive environment that caters to individual needs, helping students reach their full potential and become lifelong learners.</p>
+            </div>
+            <div class="about-col">
+            <h3><b>Vision</b></h3>
+            <p>We envision becoming a premier educational tutoring provider recognized for excellence in academic support and student outcomes. Our innovative approaches, experienced tutors, and comprehensive support systems will ensure that every student has access to high-quality tutoring. We aim to inspire a passion for learning, instill self-confidence, and equip students with the skills to overcome challenges. By continuously improving and growing, we strive to make a lasting impact on students' lives, contributing to their long-term success.</p>
+                </div>
+        </div>
+    </section>
+    <!----------End About Us------->
+    
+   
+
+
+<!-------Toggle Menu------>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
